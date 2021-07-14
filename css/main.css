@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+section{
+    padding: 5em 0 2em 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.split{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.split > * {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    min-width: 15em;
+}
+
+.btn{
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    padding: .5em 1.25em;
+    background: #16233a;
+    border-radius: .5em;
+    transition: 
+        transform 250ms ease-in-out,
+        opacity 250ms linear;
+}
+
+.btn:hover,.btn:focus{
+    transform: scale(1.1);
+    opacity: .9;
+}
+
+.primary-title{
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem
+}
+
+.section-title{
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 1;
+    color: #16233a;
+    margin-bottom: 4.5rem;
+}
+
+.hero{
+    color: #ffffff;
+    text-align: center;
+    padding: 15em 0 5em 0;
+    background: 
+        url("https://uploads-ssl.webflow.com/5f2d50967d364984a023dc4c/6092fbd604ec859b1408756c_logo-hc.png"),
+        radial-gradient(#f8bbd1,#F71963);
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    border: 1px solid #ced4da;
+    border-radius: 0.7rem;
+    margin: 1em;
+}
+
+.treinamentos{
+    background: #f8bbd1;
+    border-radius: .7rem;
+    margin: 2em;
+}
+
+.org__item{
+    display: flex;
+    position: relative;
+    transform: scale(1.1);
+    transition: transform 250ms ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.org__item:hover,.org__item:focus{
+    transform: scale(1.2);
+}
+
+.train_item{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.train_img{
+    width: 225px;
+    height: 150px;
+}
+
+.train_img img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.train-details{
+    text-align: center;
+    width: 225px;
+    color: #0463c4;
+
+}
+
+.train-details p{
+    font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#frmCadastro{
+    padding-top: 1rem;
+}
+
