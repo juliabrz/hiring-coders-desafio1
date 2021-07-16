@@ -155,3 +155,23 @@ ul{
     padding-top: 1rem;
 }
 
+@media only screen and (max-width: 400px){
+    .hero{
+     background-size: contain;
+    }
+    .primary-title{
+     font-size: 2em;
+    }
+    h4{
+     margin-bottom: 0;
+    }
+    #frmCadastro h2{
+        font-size: 1.25em;
+    }
+    .container p, a {
+        font-size: 1em;
+    }
+    .train_img{
+        display: none;
+    }
+}
